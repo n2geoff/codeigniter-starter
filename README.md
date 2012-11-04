@@ -1,7 +1,5 @@
-#CodeIgniter Starter
-
-[By Geoff Doty](https://github.com/n2geoff)
-
+CodeIgniter Starter
+----
 
 ## Overview
 
