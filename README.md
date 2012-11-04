@@ -1,9 +1,12 @@
 CodeIgniter Starter
 ----
 
-## Overview
-
 The purpose of this repository is to re-structure the default Codeigniter structure with something that is a little more agile to changes and updates.
+
+### Features
+- Codeigniter 2.1.3
+- Twitter Bootstrap 2.2.1
+- JQuery 1.8.2
 
 ### Folder Structure
 
@@ -40,16 +43,23 @@ The purpose of this repository is to re-structure the default Codeigniter struct
 			
 
 
-### Codeigniter System Structure (aka 2.1.3)
+### System Structure
 
 The `codeigniter/2.1.3` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
 
     $system_path = '../../codeigniter/2.1.3';
 
+>To add another version of Codeigniter, create a folder representing the Codeigniter version (2.1.3) and copy the contents of the `system` into that folder.
 
-### Codeigniter Application Structure
 
-The _application folder_ is still where all you application code lives, only now it includes -- all your application code.  Your javascript files, your stylesheets, and your images, all self-contained under one folder.  Contained within a single folder, allows you to easily run multipule applications from the same codeigniter instance.
+### Application Structure
+
+The _application folder_ is still where all you application code lives, only now it includes -- all your application code.  Your javascript files, your stylesheets, and your images.  
+
+The goal is two-fold
+
+1. Self-contained Application
+2. Have Multipule Applications
 
 
 ### Public Folder
@@ -68,6 +78,11 @@ A place to store all your web accessible content, such as images, stylesheets, e
     </VirtualHost>
 
 
+# Todo
+
+- Integrate HTML5 Boilerplate
+- Add Modular Seperation
+- More...
 
 
 
