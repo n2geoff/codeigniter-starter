@@ -1,14 +1,33 @@
 CodeIgniter Starter
 ----
 
-The purpose of this repository is to re-structure the default Codeigniter structure with something that is a little more agile to changes and updates.
+A re-structured version Codeigniter, bootstraped with some of the webs best libraries.
 
-### Features
-- Codeigniter 2.1.3
+#### Whats Included
+- Codeigniter       2.1.3
 - Twitter Bootstrap 2.2.1
-- JQuery 1.8.2
+- JQuery            1.8.2
 
-### Folder Structure
+## Setup
+
+###1. Clone Repo
+
+    clone git://github.com/n2geoff/codeigniter-starter.git
+
+###2. Configrue Apache Virtual Host
+
+    <VirtualHost application.dev:80>
+        DocumentRoot "<path>/application/public/"
+        ServerName application.dev
+        ErrorLog "logs/application-error.log"
+        CustomLog "logs/application-access.log" combined
+    </VirtualHost>
+
+###3. Start Developing
+
+
+
+## Folder Structure
 
 	codeigniter/
 		2.1.3/				<-- Original System Folder
@@ -41,8 +60,6 @@ The purpose of this repository is to re-structure the default Codeigniter struct
 			js/
 			user_guide/		<-- Original User Guide
 			
-
-
 ### System Structure
 
 The `codeigniter/2.1.3` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
@@ -67,15 +84,6 @@ The goal is two-fold
 A place to store all your web accessible content, such as images, stylesheets, ect... 
 
 >`application/public/` folder is the entry point for your web accessible content.
-
-#### Apache VirtualHost Example
-
-    <VirtualHost application.dev:80>
-        DocumentRoot "<path>/application/public/"
-        ServerName application.dev
-        ErrorLog "logs/application-error.log"
-        CustomLog "logs/application-access.log" combined
-    </VirtualHost>
 
 
 # Todo
