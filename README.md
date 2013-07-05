@@ -5,8 +5,8 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 
 #### Whats Included
 - Codeigniter       2.1.3
-- Twitter Bootstrap 2.2.1
-- JQuery            1.8.2
+- Twitter Bootstrap 2.3.2
+- JQuery            1.10.2
 
 ## Setup
 
