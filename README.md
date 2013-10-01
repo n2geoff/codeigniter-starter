@@ -6,7 +6,8 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 #### Whats Included
 - Codeigniter         2.1.4
 - Rest Server
-- Modular Extentions  5.4
+- Modular Extensions  5.4
+- HTML5 Boilerplate   4.0
 - Twitter Bootstrap   2.3.2
 - JQuery              1.10.2
 
@@ -59,6 +60,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 			views/
 		public/
 			css/
+			fonts/
 			img/
 			js/
 			user_guide/		<-- Original User Guide
@@ -87,12 +89,6 @@ The goal is two-fold
 A place to store all your web accessible content, such as images, stylesheets, ect... 
 
 >`application/public/` folder is the entry point for your web accessible content.
-
-
-# Todo
-
-- Integrate HTML5 Boilerplate
-- More...
 
 
 
