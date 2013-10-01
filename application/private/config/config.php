@@ -357,6 +357,23 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
+/*
+|--------------------------------------------------------------------------
+| Modular Extensions
+|--------------------------------------------------------------------------
+|
+| Modular Extensions makes the CodeIgniter PHP framework modular. 
+| Modules are groups of independent components, typically model, controller 
+| and view, arranged in an application modules sub-directory, that can be 
+| dropped into other CodeIgniter applications.
+|
+| HMVC stands for Hierarchical Model View Controller.
+|
+| @see:  https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/wiki/Home
+*/
+$config['modules_locations'] = array(
+    APPPATH . 'modules/' => '../modules/',
+);
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
