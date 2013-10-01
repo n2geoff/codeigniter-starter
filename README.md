@@ -1,23 +1,23 @@
-CodeIgniter Starter
+CodeIgniter Starter Project
 ----
 
-A re-structured version Codeigniter, bootstraped with some of the webs best libraries.
+A re-structured version Codeigniter, bootstraped with some of the webs best libraries to provide a scaleable, out-of-the-box development stack.
 
-#### Whats Included
-- Codeigniter         2.1.4
-- Rest Server
-- Modular Extensions  5.4
-- HTML5 Boilerplate   4.0
-- Twitter Bootstrap   2.3.2
-- JQuery              1.10.2
+#### What's Included
+- [Codeigniter - 2.1.4](http://ellislab.com/codeigniter)
+- [Rest Server](https://github.com/philsturgeon/codeigniter-restserver)
+- [Modular Extensions - 5.4]()
+- [HTML5 Boilerplate via Initializr - 4.0](http://www.initializr.com/)
+- [Twitter Bootstrap - 2.3.2](http://getbootstrap.com/2.3.2/)
+- [JQuery - 1.10.2](http://jquery.com/)
 
 ## Setup
 
-###1. Clone Repo
+### 1. Clone Repo
 
     clone git://github.com/n2geoff/codeigniter-starter.git
 
-###2. Configrue Apache Virtual Host
+### 2. Configure Apache Virtual Host
 
     <VirtualHost application.dev:80>
         DocumentRoot "<path>/application/public/"
@@ -26,7 +26,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
         CustomLog "logs/application-access.log" combined
     </VirtualHost>
 
-###3. Start Developing
+### 3. Start Developing
 
 
 
