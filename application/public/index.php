@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = '../../codeigniter/2.1.3';
+	$system_path = '../../codeigniter/2.1.4';
 
 /*
  *---------------------------------------------------------------
