@@ -67,7 +67,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 			
 ### System Structure
 
-The `codeigniter/2.1.3` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
+The `codeigniter/2.1.4` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
 
     $system_path = '../../codeigniter/2.1.4';
 
