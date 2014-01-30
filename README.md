@@ -8,7 +8,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 - [Rest Server](https://github.com/philsturgeon/codeigniter-restserver)
 - [Modular Extensions - 5.4]()
 - [HTML5 Boilerplate via Initializr - 4.0](http://www.initializr.com/)
-- [Twitter Bootstrap - 2.3.2](http://getbootstrap.com/2.3.2/)
+- [Twitter Bootstrap - 3.0.3](http://getbootstrap.com/)
 - [JQuery - 1.10.2](http://jquery.com/)
 
 ## Setup
