@@ -6,8 +6,8 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 #### What's Included
 - [Codeigniter - 2.1.4](http://ellislab.com/codeigniter)
 - [Rest Server](https://github.com/philsturgeon/codeigniter-restserver)
-- [Modular Extensions - 5.4]()
-- [HTML5 Boilerplate via Initializr - 4.0](http://www.initializr.com/)
+- [Modular Extensions - fecd39c](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/)
+- [HTML5 Boilerplate - 4.3](http://html5boilerplate.com/)
 - [Twitter Bootstrap - 3.0.3](http://getbootstrap.com/)
 - [JQuery - 1.10.2](http://jquery.com/)
 
