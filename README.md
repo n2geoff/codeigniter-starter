@@ -28,12 +28,10 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 
 ### 3. Start Developing
 
-
-
 ## Folder Structure
 
 	codeigniter/
-		2.1.4/				<-- Original System Folder
+		2.2.o/				<-- Original System Folder
 			core/
     		database/
     		fonts/
@@ -67,12 +65,11 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 			
 ### System Structure
 
-The `codeigniter/2.1.4` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
+The `codeigniter/2.2.0` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
 
-    $system_path = '../../codeigniter/2.1.4';
+    $system_path = '../../codeigniter/2.2.0';
 
->To add another version of Codeigniter, create a folder representing the Codeigniter version (2.1.4) and copy the contents of the `system` into that folder.
-
+>To add another version of Codeigniter, create a folder representing the Codeigniter version (2.2.0) and copy the contents of the `system` into that folder.
 
 ### Application Structure
 
@@ -80,16 +77,11 @@ The _application folder_ is still where all you application code lives, only now
 
 The goal is two-fold
 
-1. Self-contained Application
-2. Have Multiple Applications
-
+1. Self-contained Applications
+2. Support for Multiple Applications
 
 ### Public Folder
 
 A place to store all your web accessible content, such as images, stylesheets, ect... 
 
 >`application/public/` folder is the entry point for your web accessible content.
-
-
-
-
