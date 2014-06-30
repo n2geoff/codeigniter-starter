@@ -31,7 +31,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 ## Folder Structure
 
 	codeigniter/
-		2.2.o/				<-- Original System Folder
+		2.2.0/				<-- Original System Folder
 			core/
     		database/
     		fonts/
