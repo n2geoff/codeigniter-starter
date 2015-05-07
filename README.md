@@ -1,13 +1,13 @@
 CodeIgniter Starter Project
 ----
 
-A re-structured version Codeigniter, bootstrapped with some of the webs best libraries to provide a scaleable, out-of-the-box development stack.
+A re-structured version Codeigniter, bootstrapped with the webs best libraries to provide a scaleable, out-of-the-box development stack (IE8+).
 
 #### What's Included
 - [Codeigniter - 2.2.2](http://www.codeigniter.com)
 - [Rest Server](https://github.com/philsturgeon/codeigniter-restserver)
 - [Modular Extensions - fecd39c](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/)
-- [HTML5 Boilerplate - 4.3](http://html5boilerplate.com/)
+- [HTML5 Boilerplate - 5.2](http://html5boilerplate.com/)
 - [Twitter Bootstrap - 3.3.4](http://getbootstrap.com/)
 - [JQuery - 1.11.3](http://jquery.com/)
 
