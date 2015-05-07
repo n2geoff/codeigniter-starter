@@ -1,7 +1,7 @@
 CodeIgniter Starter Project
 ----
 
-A re-structured version Codeigniter, bootstraped with some of the webs best libraries to provide a scaleable, out-of-the-box development stack.
+A re-structured version Codeigniter, bootstrapped with some of the webs best libraries to provide a scaleable, out-of-the-box development stack.
 
 #### What's Included
 - [Codeigniter - 2.2.2](http://www.codeigniter.com)
@@ -9,7 +9,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 - [Modular Extensions - fecd39c](https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc/)
 - [HTML5 Boilerplate - 4.3](http://html5boilerplate.com/)
 - [Twitter Bootstrap - 3.3.4](http://getbootstrap.com/)
-- [JQuery - 1.11.1](http://jquery.com/)
+- [JQuery - 1.11.3](http://jquery.com/)
 
 ## Setup
 
@@ -31,7 +31,7 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 ## Folder Structure
 
 	codeigniter/
-		2.2.0/				<-- Original System Folder
+		2.2.2/				<-- Original System Folder
 			core/
     		database/
     		fonts/
@@ -65,11 +65,11 @@ A re-structured version Codeigniter, bootstraped with some of the webs best libr
 			
 ### System Structure
 
-The `codeigniter/2.2.0` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
+The `codeigniter/2.2.2` folder structure change allows switching between versions of Codeigiter by simply updating your `$system_path` setting in `application/public/index.php`.  
 
-    $system_path = '../../codeigniter/2.2.0';
+    $system_path = '../../codeigniter/2.2.2';
 
->To add another version of Codeigniter, create a folder representing the Codeigniter version (2.2.0) and copy the contents of the `system` into that folder.
+>To add another version of Codeigniter, create a folder representing the Codeigniter version (2.2.2) and copy the contents of the `system` into that folder.
 
 ### Application Structure
 
