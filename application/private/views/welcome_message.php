@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -6,9 +8,8 @@
 
 	<style type="text/css">
 
-	::selection{ background-color: #E13300; color: white; }
-	::moz-selection{ background-color: #E13300; color: white; }
-	::webkit-selection{ background-color: #E13300; color: white; }
+	::selection { background-color: #E13300; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
 
 	body {
 		background-color: #fff;
@@ -44,11 +45,11 @@
 		padding: 12px 10px 12px 10px;
 	}
 
-	#body{
+	#body {
 		margin: 0 15px 0 15px;
 	}
-	
-	p.footer{
+
+	p.footer {
 		text-align: right;
 		font-size: 11px;
 		border-top: 1px solid #D0D0D0;
@@ -56,11 +57,11 @@
 		padding: 0 10px 0 10px;
 		margin: 20px 0 0 0;
 	}
-	
-	#container{
+
+	#container {
 		margin: 10px;
 		border: 1px solid #D0D0D0;
-		-webkit-box-shadow: 0 0 8px #D0D0D0;
+		box-shadow: 0 0 8px #D0D0D0;
 	}
 	</style>
 </head>
@@ -73,15 +74,23 @@
 		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
+		<code>application/private/views/welcome_message.php</code>
 
 		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
+		<code>application/private/controllers/Welcome.php</code>
+
+		<p>
+			This is a <strong>modified</strong> version of CodeIgniter, as such it is designed
+			to support more than one website under a single installation of codeigniter, and provide an
+			easy migration path to newer verions of CodeIgniter.
+
+			<blockquote>Checkout the <a href="https://github.com/n2geoff/codeigniter-starter/blob/master/README.md">README</a> to learn more</blockquote>
+		</p>
 
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
+	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
 </body>
