@@ -1,14 +1,24 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
+<?php defined('BASEPATH') OR exit('No direct script access allowed');?>
+
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Welcome to CodeIgniter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<style type="text/css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-	::selection { background-color: #E13300; color: white; }
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <style>
+    	::selection { background-color: #E13300; color: white; }
 	::-moz-selection { background-color: #E13300; color: white; }
 
 	body {
@@ -63,15 +73,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		border: 1px solid #D0D0D0;
 		box-shadow: 0 0 8px #D0D0D0;
 	}
-	</style>
+    </style>
 </head>
-<body>
 
 <div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
+    <h1>Welcome to CodeIgniter!</h1>
 
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+    <div id="body">
+        <p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/private/views/welcome_message.php</code>
@@ -84,13 +93,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			to support more than one website under a single installation of codeigniter, and provide an
 			easy migration path to newer verions of CodeIgniter.
 
-			<blockquote>Checkout the <a href="https://github.com/n2geoff/codeigniter-starter/blob/master/README.md">README</a> to learn more</blockquote>
+            <ul>
+                <li>Checkout the <a href="https://github.com/n2geoff/codeigniter-starter/blob/master/README.md">README</a> to learn about the restructure</li>
+                <li>Read the <a href="user_guide/rest/">Rest Server Documentation</a> to learn about building your own APIs</li>
+            </ul>
+
+
 		</p>
 
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+    <p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>'.CI_VERSION.'</strong>' : '' ?></p>
 </div>
 
 </body>
